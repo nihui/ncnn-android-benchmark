@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:columnCount="2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Threads" />
+
+    <Spinner
+        android:id="@+id/spinnerThreads"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/threads_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Powersave" />
+
+    <Spinner
+        android:id="@+id/spinnerPowersave"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/powersave_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Mempool" />
+
+    <Spinner
+        android:id="@+id/spinnerMempool"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Winograd" />
+
+    <Spinner
+        android:id="@+id/spinnerWinograd"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="SGEMM" />
+
+    <Spinner
+        android:id="@+id/spinnerSGEMM"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Pack4" />
+
+    <Spinner
+        android:id="@+id/spinnerPack4"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="BF16s" />
+
+    <Spinner
+        android:id="@+id/spinnerBF16s"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="GPU" />
+
+    <Spinner
+        android:id="@+id/spinnerGPU"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="GPU FP16p" />
+
+    <Spinner
+        android:id="@+id/spinnerGPUFP16p"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="GPU FP16s" />
+
+    <Spinner
+        android:id="@+id/spinnerGPUFP16s"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="GPU FP16a" />
+
+    <Spinner
+        android:id="@+id/spinnerGPUFP16a"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="GPU Pack8" />
+
+    <Spinner
+        android:id="@+id/spinnerGPUPack8"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yesno_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Model" />
+
+    <Spinner
+        android:id="@+id/spinnerModel"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/model_array" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Loops" />
+
+    <Spinner
+        android:id="@+id/spinnerLoops"
+        android:layout_gravity="fill_horizontal"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/loops_array" />
+
+    <Button
+        android:layout_gravity="left"
+        android:id="@+id/buttonRun"
+        android:text="Run" />
+
+    <TextView />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Min" />
+
+    <TextView
+        android:id="@+id/textviewMin"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Max" />
+
+    <TextView
+        android:id="@+id/textviewMax"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:text="Avg" />
+
+    <TextView
+        android:id="@+id/textviewAvg"
+        android:layout_gravity="left" />
+
+</GridLayout>

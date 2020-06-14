@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">benchmarkncnn</string>
+    <string-array name="yesno_array">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="threads_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="powersave_array">
+        <item>All</item>
+        <item>Little</item>
+        <item>Big</item>
+    </string-array>
+    <string-array name="model_array">
+        <item>squeezenet</item>
+        <item>mobilenet</item>
+        <item>mobilenet_v2</item>
+        <item>mobilenet_v3</item>
+        <item>shufflenet</item>
+        <item>shufflenet_v2</item>
+        <item>mnasnet</item>
+        <item>proxylessnasnet</item>
+        <item>efficientnet_b0</item>
+        <item>regnety_400m</item>
+        <item>alexnet</item>
+        <item>googlenet</item>
+        <item>resnet18</item>
+        <item>vgg16</item>
+        <item>resnet50</item>
+        <item>mobilenet_ssd</item>
+        <item>squeezenet_ssd</item>
+        <item>mobilenet_yolo</item>
+        <item>mobilenetv2_yolov3</item>
+    </string-array>
+    <string-array name="loops_array">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+    </string-array>
+</resources>
