@@ -6,6 +6,12 @@ this is a sample ncnn android project, it depends on ncnn library only
 
 https://github.com/Tencent/ncnn
 
+## download apk
+
+prebuild apk file can be download from release page
+
+https://github.com/nihui/ncnn-android-benchmark/releases
+
 ## how to build and run
 ### step1
 https://github.com/Tencent/ncnn/releases
