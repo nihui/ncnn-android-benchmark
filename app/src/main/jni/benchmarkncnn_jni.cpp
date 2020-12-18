@@ -25,6 +25,7 @@
 
 // ncnn
 #include "benchmark.h"
+#include "c_api.h"
 #include "cpu.h"
 #include "datareader.h"
 #include "net.h"
@@ -178,6 +179,12 @@ JNIEXPORT jstring JNICALL Java_com_tencent_benchmarkncnn_BenchmarkNcnn_GetPlatfo
     __system_property_get("ro.board.platform", platform);
 
     return env->NewStringUTF(platform);
+}
+
+// public native String GetNcnnVersion();
+JNIEXPORT jstring JNICALL Java_com_tencent_benchmarkncnn_BenchmarkNcnn_GetNcnnVersion(JNIEnv* env, jobject thiz)
+{
+    return env->NewStringUTF(ncnn_version());
 }
 
 // public native Obj Run(AssetManager mgr, int threads, int powersave,

@@ -15,27 +15,9 @@ android {
         minSdkVersion 24
     }
 
-    signingConfigs {
-
-        release {
-            storeFile file(RELEASE_STORE_FILE)
-            storePassword RELEASE_STORE_PASSWORD
-            keyAlias RELEASE_KEY_ALIAS
-            keyPassword RELEASE_KEY_PASSWORD
-
-            // Optional, specify signing versions used
-            v1SigningEnabled true
-            v2SigningEnabled true
-        }
-    }
-    buildTypes {
-        release {
-            signingConfig signingConfigs.release
-        }
-    }
-
     externalNativeBuild {
         cmake {
+            version "3.10.2"
             path file('src/main/jni/CMakeLists.txt')
         }
     }

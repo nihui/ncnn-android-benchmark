@@ -64,7 +64,8 @@ public class MainActivity extends Activity
         }
 
         String platform = benchmarkncnn.GetPlatform();
-        setTitle("benchmarkncnn " + platform);
+        String ncnnversion = benchmarkncnn.GetNcnnVersion();
+        setTitle("ncnn-" + ncnnversion + " " + platform);
 
         spinnerThreads = (Spinner) findViewById(R.id.spinnerThreads);
         spinnerPowersave = (Spinner) findViewById(R.id.spinnerPowersave);

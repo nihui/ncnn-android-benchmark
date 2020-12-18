@@ -22,6 +22,8 @@ public class BenchmarkNcnn
 
     public native String GetPlatform();
 
+    public native String GetNcnnVersion();
+
     public class Obj
     {
         // 0 = success
