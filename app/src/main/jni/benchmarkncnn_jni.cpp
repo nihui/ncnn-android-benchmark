@@ -50,14 +50,14 @@ public:
         // resolve input shape
         ncnn::Mat in;
         {
-            for (int i=0; i<(int)layers.size(); i++)
+            for (int i=0; i<(int)layers().size(); i++)
             {
-                const ncnn::Layer* layer = layers[i];
+                const ncnn::Layer* layer = layers()[i];
 
                 if (layer->type != "Input")
                     continue;
 
-                if (blobs[layer->tops[0]].name != "data")
+                if (blobs()[layer->tops[0]].name != "data")
                     continue;
 
                 const ncnn::Mat& shape = layer->top_shapes[0];
